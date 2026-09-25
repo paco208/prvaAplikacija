@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="besedilo1">Mobile application!</string>
+    <string name="besedilo2">Mobilna aplikacija!</string>
+    <string name="gumb">Klikni me</string>
+    <string name="pogoji">Strinjam se s pogoji uporabe</string>
+    <string name="toast_besedilo">My first Android Studio application!</string>
+    <string name="snackbar_besedilo">Just another option for button.</string>
+</resources>
