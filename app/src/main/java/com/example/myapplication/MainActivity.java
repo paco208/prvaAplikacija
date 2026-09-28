@@ -1,13 +1,14 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.RadioButton;
 import android.widget.Toast;
 import android.graphics.Color;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -33,9 +34,11 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnLongClickListener(v -> {
             Snackbar snackbar = Snackbar.make(v, R.string.snackbar_besedilo, Snackbar.LENGTH_LONG);
             snackbar.setAnimationMode(Snackbar.ANIMATION_MODE_FADE);
+            snackbar.setTextColor(Color.BLACK);
 
             View snackView = snackbar.getView();
             snackView.setBackgroundResource(R.drawable.toast_ozadje);
+            snackView.setBackgroundTintList(null);
             snackView.setElevation(12);
 
             FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) snackView.getLayoutParams();
@@ -43,12 +46,17 @@ public class MainActivity extends AppCompatActivity {
             params.gravity = Gravity.CENTER;
             snackView.setLayoutParams(params);
 
-            TextView tekst = snackView.findViewById(com.google.android.material.R.id.snackbar_text);
-            tekst.setTextColor(Color.BLACK);
-            tekst.setTextSize(14);
-
             snackbar.show();
             return true;
         });
+
+        RadioButton moski = findViewById(R.id.radio_moski);
+        RadioButton zenska = findViewById(R.id.radio_zenska);
+
+        moski.setOnCheckedChangeListener((buttonView, isChecked) ->
+                Log.d("RADIO", "Moški is checked: " + isChecked));
+
+        zenska.setOnCheckedChangeListener((buttonView, isChecked) ->
+                Log.d("RADIO", "Ženska is checked: " + isChecked));
     }
 }
