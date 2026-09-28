@@ -7,4 +7,4 @@ Prva mobilna aplikacija za MOA (Naloga 1: Hello World! v Android Studiu).
 - CheckBox s pogoji uporabe
 - Floating Action Button: klik prikaže privzeti Snackbar, dolg pritisk pa prilagojen Snackbar na sredini zaslona
 
-<img width="350" height="700" alt="img1" src="https://github.com/user-attachments/assets/3f96c802-c1a5-4941-a50f-08f86846c89c" />
+<img width="343" height="700" alt="slika" src="https://github.com/user-attachments/assets/b33a9dbf-20ff-4de0-8d70-ff065aca60da" />
