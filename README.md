@@ -13,7 +13,7 @@ Prva mobilna aplikacija za MOA (Naloga 1: Hello World! v Android Studiu).
 ## Posnetki zaslona
 
 <p align="center">
-  <img width="250" alt="Glavni zaslon" src="https://github.com/user-attachments/assets/b33a9dbf-20ff-4de0-8d70-ff065aca60da" />
+  <img width="250" alt="Posnetek zaslona 1" src="https://github.com/user-attachments/assets/a88357d6-0cd9-42f0-b8d8-7038f066b5be" />
   &nbsp;&nbsp;
   <img width="250" alt="Posnetek zaslona 2" src="https://github.com/user-attachments/assets/8eb1f2c9-8b4a-4b5a-a49d-fa44e4a4ef43" />
   &nbsp;&nbsp;
