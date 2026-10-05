@@ -1,6 +1,6 @@
 # Prva aplikacija
 
-Prva mobilna aplikacija za MOA (Naloga 1: Hello World! v Android Studiu).
+Prva mobilna aplikacija v Android Studiu
 
 ## Funkcionalnosti
 
